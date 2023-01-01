@@ -1,0 +1,64 @@
+body {
+  background: black;
+}
+h1 {
+  font-size: 35pt;
+}
+.fundo {
+  width: 600px;
+  height: auto;
+  background: white;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+.adicionarTarefa {
+  justify-content: space-between;
+  width: 400px;
+  margin: auto;
+  position: relative;
+}
+.addTarefa {
+  width: 280px;
+  height: 30px;
+  font: bolder 14pt Arial;
+}
+.adicionar {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.btnAdd {
+  height: 35px;
+  position: relative;
+  top: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.lista {
+  width: 400px;
+  height: auto;
+  display: flex;
+  background: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  padding: 5px;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font: bolder 14pt Arial;
+}
+.acao {
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.span {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
